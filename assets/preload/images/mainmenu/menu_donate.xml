@@ -11,7 +11,7 @@
 	<SubTexture name="donate basic0006" x="0" y="272" width="839" height="136"/>
 	<SubTexture name="donate basic0007" x="0" y="272" width="839" height="136"/>
 	<SubTexture name="donate basic0008" x="0" y="272" width="839" height="136"/>
-	<SubTexture name="donate white0000" x="0" y="408" width="839" height="136" frameX="0" frameY="-1" frameWidth="839" frameHeight="137"/>
-	<SubTexture name="donate white0001" x="0" y="544" width="838" height="136" frameX="0" frameY="0" frameWidth="839" frameHeight="137"/>
-	<SubTexture name="donate white0002" x="0" y="680" width="836" height="136" frameX="0" frameY="0" frameWidth="839" frameHeight="137"/>
+	<SubTexture name="donate white0000" x="0" y="408" width="959" height="152" frameX="0" frameY="0" frameWidth="960" frameHeight="152"/>
+	<SubTexture name="donate white0001" x="0" y="560" width="960" height="152"/>
+	<SubTexture name="donate white0002" x="0" y="560" width="960" height="152"/>
 </TextureAtlas>
