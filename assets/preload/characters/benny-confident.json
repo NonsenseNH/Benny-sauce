@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "benny right dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				33,
+				0
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "benny left dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-49,
+				-5
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "benny confident left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				87,
+				35
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "benny confident up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-29,
+				14
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "benny confident right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-78,
+				-82
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "benny confident down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				20
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "benny laugh",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-60,
+				20
+			],
+			"anim": "",
+			"fps": 24,
+			"name": "",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-58,
+				21
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "Oh",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-46,
+				-3
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "Yeah",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "bennyxd/benny confident",
+	"position": [
+		-110,
+		110
+	],
+	"healthicon": "benny",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		102,
+		206
+	],
+	"camera_position": [
+		-20,
+		30
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

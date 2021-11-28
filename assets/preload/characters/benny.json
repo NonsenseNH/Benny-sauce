@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				286,
+				-38
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "benny left"
+		},
+		{
+			"offsets": [
+				-26,
+				90
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "benny up"
+		},
+		{
+			"offsets": [
+				90,
+				27
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "benny right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "benny idle"
+		},
+		{
+			"offsets": [
+				92,
+				-130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "benny down"
+		},
+		{
+			"offsets": [
+				190,
+				-2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "eventProud",
+			"indices": [],
+			"name": "proud"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				14,
+				28
+			],
+			"anim": "eventFuckYou",
+			"fps": 24,
+			"name": "benny fuck you",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "bennyxd/benny",
+	"position": [
+		20,
+		60
+	],
+	"healthicon": "benny",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		102,
+		206
+	],
+	"camera_position": [
+		-60,
+		30
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

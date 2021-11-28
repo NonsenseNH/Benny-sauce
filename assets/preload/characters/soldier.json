@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-4
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "soldier left"
+		},
+		{
+			"offsets": [
+				66,
+				-6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "soldier right"
+		},
+		{
+			"offsets": [
+				75,
+				5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "soldier up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "soldier idle"
+		},
+		{
+			"offsets": [
+				70,
+				-106
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "soldier down"
+		},
+		{
+			"offsets": [
+				124,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "eventProud",
+			"indices": [],
+			"name": "soldier proud"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "bennyxd/soldier",
+	"position": [
+		20,
+		160
+	],
+	"healthicon": "soldier",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		115,
+		0
+	],
+	"camera_position": [
+		80,
+		40
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gf duck.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GF Dancing Beat DUCK0000" x="5" y="5" width="699" height="540" frameX="-2" frameY="-14" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0001" x="709" y="5" width="703" height="540" frameX="0" frameY="-14" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0002" x="1417" y="5" width="703" height="538" frameX="0" frameY="-16" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0003" x="2125" y="5" width="699" height="538" frameX="-2" frameY="-16" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0004" x="2829" y="5" width="699" height="541" frameX="-2" frameY="-13" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0005" x="5" y="551" width="699" height="541" frameX="-2" frameY="-13" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0006" x="709" y="551" width="699" height="543" frameX="-2" frameY="-11" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0007" x="1413" y="551" width="699" height="554" frameX="-2" frameY="0" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0008" x="1413" y="551" width="699" height="554" frameX="-2" frameY="0" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0009" x="1413" y="551" width="699" height="554" frameX="-2" frameY="0" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0010" x="2117" y="551" width="699" height="554" frameX="-2" frameY="0" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0011" x="2117" y="551" width="699" height="554" frameX="-2" frameY="0" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0012" x="2117" y="551" width="699" height="554" frameX="-2" frameY="0" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0013" x="2821" y="551" width="699" height="554" frameX="-2" frameY="0" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0014" x="2821" y="551" width="699" height="554" frameX="-2" frameY="0" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0015" x="5" y="1110" width="699" height="543" frameX="-2" frameY="-11" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0016" x="709" y="1110" width="703" height="543" frameX="0" frameY="-11" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0017" x="1417" y="1110" width="703" height="542" frameX="0" frameY="-12" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0018" x="2125" y="1110" width="699" height="542" frameX="-2" frameY="-12" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0019" x="2829" y="1110" width="699" height="543" frameX="-2" frameY="-11" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0020" x="5" y="1658" width="699" height="543" frameX="-2" frameY="-11" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0021" x="709" y="1658" width="699" height="545" frameX="-2" frameY="-9" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0022" x="1413" y="1658" width="699" height="549" frameX="-2" frameY="-5" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0023" x="1413" y="1658" width="699" height="549" frameX="-2" frameY="-5" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0024" x="1413" y="1658" width="699" height="549" frameX="-2" frameY="-5" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0025" x="2117" y="1658" width="699" height="549" frameX="-2" frameY="-5" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0026" x="2117" y="1658" width="699" height="549" frameX="-2" frameY="-5" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0027" x="2117" y="1658" width="699" height="549" frameX="-2" frameY="-5" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0028" x="2821" y="1658" width="699" height="548" frameX="-2" frameY="-6" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="GF Dancing Beat DUCK0029" x="2821" y="1658" width="699" height="548" frameX="-2" frameY="-6" frameWidth="703" frameHeight="554"/>
+	<SubTexture name="gf dodge 10000" x="5" y="2212" width="699" height="540" frameX="0" frameY="-5" frameWidth="699" frameHeight="545"/>
+	<SubTexture name="gf dodge 10001" x="709" y="2212" width="699" height="539" frameX="0" frameY="-6" frameWidth="699" frameHeight="545"/>
+	<SubTexture name="gf dodge 10002" x="1413" y="2212" width="699" height="540" frameX="0" frameY="-5" frameWidth="699" frameHeight="545"/>
+	<SubTexture name="gf dodge 10003" x="2117" y="2212" width="699" height="543" frameX="0" frameY="-2" frameWidth="699" frameHeight="545"/>
+	<SubTexture name="gf dodge 10004" x="2821" y="2212" width="699" height="545"/>
+	<SubTexture name="gf dodge 10005" x="5" y="2762" width="699" height="543" frameX="0" frameY="-2" frameWidth="699" frameHeight="545"/>
+	<SubTexture name="gf dodge 10006" x="709" y="2762" width="699" height="542" frameX="0" frameY="-3" frameWidth="699" frameHeight="545"/>
+	<SubTexture name="gf dodge 10007" x="1413" y="2762" width="699" height="544" frameX="0" frameY="-1" frameWidth="699" frameHeight="545"/>
+	<SubTexture name="gf dodge 10008" x="2117" y="2762" width="699" height="544" frameX="0" frameY="-1" frameWidth="699" frameHeight="545"/>
+	<SubTexture name="gf dodge 10009" x="2821" y="2762" width="699" height="544" frameX="0" frameY="-1" frameWidth="699" frameHeight="545"/>
+	<SubTexture name="gf dodge 10010" x="2821" y="2762" width="699" height="544" frameX="0" frameY="-1" frameWidth="699" frameHeight="545"/>
+	<SubTexture name="gf dodge 10011" x="2821" y="2762" width="699" height="544" frameX="0" frameY="-1" frameWidth="699" frameHeight="545"/>
+	<SubTexture name="gf dodge 10012" x="2821" y="2762" width="699" height="544" frameX="0" frameY="-1" frameWidth="699" frameHeight="545"/>
+	<SubTexture name="gf dodge 10013" x="2821" y="2762" width="699" height="544" frameX="0" frameY="-1" frameWidth="699" frameHeight="545"/>
+	<SubTexture name="gf dodge 10014" x="2821" y="2762" width="699" height="544" frameX="0" frameY="-1" frameWidth="699" frameHeight="545"/>
+	<SubTexture name="gf dodge 10015" x="2821" y="2762" width="699" height="544" frameX="0" frameY="-1" frameWidth="699" frameHeight="545"/>
+	<SubTexture name="gf dodge 10016" x="2821" y="2762" width="699" height="544" frameX="0" frameY="-1" frameWidth="699" frameHeight="545"/>
+</TextureAtlas>

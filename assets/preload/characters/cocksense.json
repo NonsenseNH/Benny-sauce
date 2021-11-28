@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-150,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "IdleConfident"
+		},
+		{
+			"offsets": [
+				-59,
+				1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "NoteLeft Confident"
+		},
+		{
+			"offsets": [
+				-165,
+				46
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "NoteUp confident"
+		},
+		{
+			"offsets": [
+				-87,
+				14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "NoteRight confident"
+		},
+		{
+			"offsets": [
+				-147,
+				-31
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "NoteDown confident"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "fucker/clark skyler eliseo calapiz",
+	"position": [
+		-110,
+		110
+	],
+	"healthicon": "bf",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		160,
+		206
+	],
+	"camera_position": [
+		170,
+		30
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
