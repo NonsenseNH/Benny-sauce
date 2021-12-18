@@ -481,7 +481,7 @@ class PlayState extends MusicBeatState
 						
 						rocky = new FlxSprite(789, 112);
 						rocky.frames = Paths.getSparrowAtlas('bennyxd/rockyhostage');
-						rocky.animation.addByPrefix('idle', 'rockyhostage', 24, false);
+						rocky.animation.addByPrefix('idle', 'rockyhostage', 24, true);
 						rocky.antialiasing = true;
 						add(rocky);
 					}
