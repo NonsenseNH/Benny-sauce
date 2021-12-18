@@ -205,6 +205,7 @@ class PlayState extends MusicBeatState
 	var santa:BGSprite;
 	var heyTimer:Float;
 	var rocky:FlxSprite;
+	var rockyhostage:FlxSprite;
 	var rockyshooting:FlxSprite;
 	var soldiers:FlxSprite;
 	var soldiers2:FlxSprite;
@@ -403,7 +404,6 @@ class PlayState extends MusicBeatState
 
 						var bg:FlxSprite = new FlxSprite(-600, 400).loadGraphic(Paths.image('bennyxd/ground'));
 						bg.antialiasing = true;
-						bg.scrollFactor.set(0.9, 0.9);
 						bg.active = false;
 						add(bg);
 
@@ -411,7 +411,6 @@ class PlayState extends MusicBeatState
 						rocky.frames = Paths.getSparrowAtlas('bennyxd/rocky');
 						rocky.animation.addByPrefix('idle', 'rocky', 24, false);
 						rocky.antialiasing = true;
-						rocky.scrollFactor.set(0.9, 0.9);
 						add(rocky);
 					}
 			case 'landFight':
@@ -432,7 +431,6 @@ class PlayState extends MusicBeatState
 
 						var bg:FlxSprite = new FlxSprite(-600, 400).loadGraphic(Paths.image('bennyxd/ground'));
 						bg.antialiasing = true;
-						bg.scrollFactor.set(0.9, 0.9);
 						bg.active = false;
 						add(bg);
 						
@@ -440,21 +438,18 @@ class PlayState extends MusicBeatState
 						soldiers.frames = Paths.getSparrowAtlas('bennyxd/soldiers');
 						soldiers.animation.addByPrefix('idle', 'soldiers', 24);
 						soldiers.antialiasing = true;
-						soldiers.scrollFactor.set(0.9, 0.9);
 						add(soldiers);
 
 						soldiers2 = new FlxSprite(-1050, -30);
 						soldiers2.frames = Paths.getSparrowAtlas('bennyxd/soldiers2');
 						soldiers2.animation.addByPrefix('idle', 'soldiers2', 24);
 						soldiers2.antialiasing = true;
-						soldiers.scrollFactor.set(0.8, 0.8);
 						add(soldiers2);
 
 						rockyshooting = new FlxSprite(850, -10);
 						rockyshooting.frames = Paths.getSparrowAtlas('bennyxd/rockyshooting');
 						rockyshooting.animation.addByPrefix('idle', 'rockyshooting', 24, true);
 						rockyshooting.antialiasing = true;
-						rockyshooting.scrollFactor.set(0.9, 0.9);
 						add(rockyshooting);
 					}
 			case 'landHostage':
@@ -475,7 +470,6 @@ class PlayState extends MusicBeatState
 						
 						var bg:FlxSprite = new FlxSprite(-600, 400).loadGraphic(Paths.image('bennyxd/ground'));
 						bg.antialiasing = true;
-						bg.scrollFactor.set(0.9, 0.9);
 						bg.active = false;
 						add(bg);
 
@@ -483,8 +477,13 @@ class PlayState extends MusicBeatState
 						soldiersBoppin.frames = Paths.getSparrowAtlas('bennyxd/soldiersBoppin');
 						soldiersBoppin.animation.addByPrefix('idle', 'soldiersBoppin', 24, false);
 						soldiersBoppin.antialiasing = true;
-						soldiersBoppin.scrollFactor.set(0.9, 0.9);
 						add(soldiersBoppin);
+						
+						rocky = new FlxSprite(789, 112);
+						rocky.frames = Paths.getSparrowAtlas('bennyxd/rocky hostage');
+						rocky.animation.addByPrefix('idle', 'rocky hostage', 24, false);
+						rocky.antialiasing = true;
+						add(rocky);
 					}
 
 			case 'spooky': //Week 2
@@ -1118,6 +1117,8 @@ class PlayState extends MusicBeatState
 					
 				case 'guilty':
 					startVideo('Cutscene1');
+				case 'repeater':
+					startVideo('Cutscene2');
 
 				default:
 					startCountdown();
