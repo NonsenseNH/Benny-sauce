@@ -3940,6 +3940,7 @@ class PlayState extends MusicBeatState
 				rocky.animation.play('idle', true);
 			case 'landHostage':
 				soldiersBoppin.animation.play('idle', true);
+				rocky.animation.play('idle', true);
 
 			case 'mall':
 				if(!ClientPrefs.lowQuality) {
