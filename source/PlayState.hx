@@ -479,7 +479,7 @@ class PlayState extends MusicBeatState
 						soldiersBoppin.antialiasing = true;
 						add(soldiersBoppin);
 						
-						rocky = new FlxSprite(789, 112);
+						rocky = new FlxSprite(789, 133);
 						rocky.frames = Paths.getSparrowAtlas('bennyxd/rockyhostage');
 						rocky.animation.addByPrefix('idle', 'rockyhostage', 24, true);
 						rocky.antialiasing = true;
