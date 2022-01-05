@@ -1,66 +1,48 @@
 {
-	"storyName": "Tresspassing On Battlefields",
-	"hideFreeplay": false,
-	"weekBackground": "land",
-	"weekBefore": "tutorial",
+	"songs": [
+		[
+			"Bopeebo",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Fresh",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Dad Battle",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideFreeplay": true,
+	"weekBackground": "stage",
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"storyName": "Your New Week",
+	"weekName": "Custom Week",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"startUnlocked": true,
-	"songs": [
-		[
-			"Guilty",
-			"benny",
-			[
-				255,
-				153,
-				235
-			]
-		],
-		[
-			"Repeater",
-			"benny",
-			[
-				255,
-				153,
-				235
-			]
-		],
-		[
-			"Crossfire",
-			"benny",
-			[
-				255,
-				153,
-				235
-			]
-		],
-		[
-			"Bullets",
-			"soldier",
-			[
-				0,
-				93,
-				53
-			]
-		],
-		[
-			"Sharp Struggle",
-			"benny",
-			[
-				255,
-				153,
-				235
-			]
-		]
-	],
-	"hideStoryMode": false,
-	"weekCharacters": [
-		"benny",
-		"bf",
-		"gf"
-	],
-	"weekName": "WeekBennyLmao"
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
 }
