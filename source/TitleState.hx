@@ -160,13 +160,28 @@ class TitleState extends MusicBeatState
 		Conductor.changeBPM(102);
 		persistentUpdate = true;
 
-		var bg:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
-		// bg.antialiasing = ClientPrefs.globalAntialiasing;
-		// bg.setGraphicSize(Std.int(bg.width * 0.6));
-		// bg.updateHitbox();
-		add(bg);
+		var bg:FlxSprite;
+        	bg = new FlxSprite(0, 0);
+        	bg.frames = Paths.getSparrowAtlas('Bglol');
+        	bg.antialiasing = FlxG.save.data.antialiasing;
+        	bg.screenCenter(X);
+        	bg.screenCenter(Y);
+        	// bg.antialiasing = FlxG.save.data.antialiasing;
+        	// bg.setGraphicSize(Std.int(bg.width * 0.6));
+        	// bg.updateHitbox();
+        	add(bg);
 
-		logoBl = new FlxSprite(-150, -100);
+		var bg:FlxSprite;
+        	bg = new FlxSprite(50, 300);
+        	bg.frames = Paths.getSparrowAtlas('peeps');
+        	bg.antialiasing = ClientPrefs.globalAntialiasing;
+			bg.animation.addByPrefix('peeps', 'peeps', 24);
+			bg.animation.play('peeps');
+        	// bg.antialiasing = FlxG.save.data.antialiasing;
+        	// bg.setGraphicSize(Std.int(bg.width * 0.6));
+        	add(bg);
+
+		logoBl = new FlxSprite(-65, -65);
 		logoBl.frames = Paths.getSparrowAtlas('logoBumpin');
 		logoBl.antialiasing = ClientPrefs.globalAntialiasing;
 		logoBl.animation.addByPrefix('bump', 'logo bumpin', 24);

@@ -1,22 +1,66 @@
 {
-	"songs": [
-		["Bopeebo", "dad", [146, 113, 253]],
-		["Fresh", "dad", [146, 113, 253]],
-		["Dad Battle", "dad", [146, 113, 253]]
+	"storyName": "Tresspassing On Battlefields",
+	"hideFreeplay": false,
+	"weekBackground": "land",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
 	],
-
+	"startUnlocked": true,
+	"songs": [
+		[
+			"Guilty",
+			"benny",
+			[
+				255,
+				153,
+				235
+			]
+		],
+		[
+			"Repeater",
+			"benny",
+			[
+				255,
+				153,
+				235
+			]
+		],
+		[
+			"Crossfire",
+			"benny",
+			[
+				255,
+				153,
+				235
+			]
+		],
+		[
+			"Bullets",
+			"soldier",
+			[
+				0,
+				93,
+				53
+			]
+		],
+		[
+			"Sharp Struggle",
+			"benny",
+			[
+				255,
+				153,
+				235
+			]
+		]
+	],
+	"hideStoryMode": false,
 	"weekCharacters": [
-		"dad",
+		"benny",
 		"bf",
 		"gf"
 	],
-	"weekBackground": "stage",
-
-	"storyName": "Daddy Dearest",
-	"weekBefore": "tutorial",
-	"weekName": "Week 1",
-	"startUnlocked": true,
-
-	"hideStoryMode": false,
-	"hideFreeplay": false
+	"weekName": "WeekBennyLmao"
 }
