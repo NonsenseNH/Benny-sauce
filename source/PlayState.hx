@@ -2400,6 +2400,16 @@ class PlayState extends MusicBeatState
 						notes.remove(daNote, true);
 						daNote.destroy();
 					}
+					switch (dad.curCharacter)
+					{
+						case 'soldier':
+						{
+							if (health > 0.02)
+							{
+								health -= 0.02;
+							}
+						}	
+					}
 				}
 
 				if(daNote.mustPress && cpuControlled) {
